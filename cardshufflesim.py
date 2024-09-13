@@ -38,5 +38,5 @@ if(len(sys.argv) < 2):
     print("Please provide the number of cards")
     sys.exit(0)
 
-cardCount = sys.argv[1]
+cardCount = int(sys.argv[1])
 print("Cards : ",cardCount, "> Repetitions : ", calculateDeckShuffle(cardCount)[1])
